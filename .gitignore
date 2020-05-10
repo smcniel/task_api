@@ -1,0 +1,23 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+
+# Python generated files #
+##########################
+__pycache__/
+*.py[cod]
+
+# Virtual Env #
+##########################
+task_env/*
+
+# Django
+**/db.sqlite3
+*.sqlite3
+**/.env
+*.log
+*.pot
+**/taskapp/migrations/*
+
